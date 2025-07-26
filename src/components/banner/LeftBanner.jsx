@@ -53,10 +53,18 @@ const LeftBanner = () => {
                 Best Skill On
                </h2>
                <div className='flex gap-4'>
-                    <span className='bannerIcon'><FaHtml5/></span>
-                    <span className='bannerIcon'><IoLogoJavascript/></span>
-                    <span className='bannerIcon'><FaReact/></span>
-                    <span className='bannerIcon'><SiMui/></span>
+                    <span className='bannerIcon'>
+                        <FaHtml5/>
+                    </span>
+                    <span className='bannerIcon'>
+                        <IoLogoJavascript/>
+                    </span>
+                    <span className='bannerIcon'>
+                        <FaReact/>
+                    </span>
+                    <span className='bannerIcon'>
+                        <SiMui/>
+                    </span>
                </div>
             </div>
         </div>
