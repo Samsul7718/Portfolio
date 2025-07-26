@@ -17,7 +17,7 @@ const LeftBanner = () => {
                 Hi I'm
                 <span className='text-designColor capitalize'>Samsul Alam</span>
                 </h1>
-                <h2></h2>
+                <h2>hello cursior</h2>
                 <p>
           Proficient front-end developer with a passion for immersive digital
           experiences and a solid foundation in HTML,CSS,Tailwind CSS, JavaScript,
