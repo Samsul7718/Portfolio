@@ -14,7 +14,6 @@ const Navbar = () => {
       
     <div className='flex-shrink-0'>
         <img className='w-15 h-15 rounded-full ' src={logo} alt="logo" />
-       
     </div>
     {/* Desktop Menu */}
     <ul className='hidden md:flex items-center gap-8'>
@@ -55,7 +54,6 @@ const Navbar = () => {
       ></div>
 
     {/* Mobile Menu */}
-    {/* <FiMenu /> */}
      <div
         className={`md:hidden fixed top-0 right-0 h-full w-64 bg-bodyColor shadow-lg transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
