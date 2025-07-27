@@ -69,13 +69,19 @@ const LeftBanner = () => {
                </h2>
                <div className='flex gap-4'>
                     <span className='bannerIcon'>
-                        <FaHtml5/>
+                           <FaHtml5/> 
                     </span>
                     <span className='bannerIcon'>
-                        <IoLogoJavascript/>
+                        <a href="https://drive.google.com/file/d/1o9_E_rxmBVvXFF8T6E9CWAWA-rLeZQmf/view?usp=sharing">
+                           <IoLogoJavascript/>
+                        </a>
+                       
                     </span>
                     <span className='bannerIcon'>
-                        <FaReact/>
+                        <a href="https://drive.google.com/file/d/1rzxMlI7TwAhGPgoHsFdde32sS2V_rgfX/view?usp=sharing">
+                            <FaReact/> 
+                        </a>
+                       
                     </span>
                     <span className='bannerIcon'>
                         <SiMui/>
