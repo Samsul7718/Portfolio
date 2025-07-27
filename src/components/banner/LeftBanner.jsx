@@ -1,4 +1,5 @@
 import React from 'react'
+import {portfolio} from '../../assets/index'
 import { useTypewriter,Cursor} from 'react-simple-typewriter';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -10,6 +11,13 @@ import { SiMui } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 
 const LeftBanner = () => {
+      const [port]=useTypewriter({
+        words:['PORTFOLIO.',"LOGO"],
+        loop: true,
+        typeSpeed: 30,
+        deleteSpeed: 10,
+        delaySpeed: 2000,
+    })
     const [text]=useTypewriter({
         words:['Front-end Developer.','React Developer.','Web Designer.'],
         loop: true,
@@ -20,7 +28,11 @@ const LeftBanner = () => {
   return (
     <div className='w-full flex flex-col gap-20'>
         <div className='flex flex-col gap-5'>
-            <h4 className='text-lg font-normal'>WEL COME TO MY WORLD</h4>
+            <h4 className='text-lg font-normal'>WEL COME TO MY   <span>{port === "LOGO" ? (
+        <img src={portfolio} alt="logo" className="w-12 h-12 inline-block" />
+      ) : (
+        port
+      )}</span></h4>
             <h1 className='text-6xl font-bold text-bold'>
                 Hi, I'm {''}
                 <span className='text-designColor capitalize'>Samsul Alam</span>
