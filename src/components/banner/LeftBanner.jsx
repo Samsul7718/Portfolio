@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTypewriter,Cursor} from 'react-simple-typewriter';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -9,16 +10,30 @@ import { SiMui } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 
 const LeftBanner = () => {
+    const [text]=useTypewriter({
+        words:['Front-end Developer.','React Developer.','Web Designer.'],
+        loop: true,
+        typeSpeed: 20,
+        deleteSpeed: 10,
+        delaySpeed: 2000,
+    })
   return (
     <div className='w-full flex flex-col gap-20'>
         <div className='flex flex-col gap-5'>
             <h4 className='text-lg font-normal'>WEL COME TO MY WORLD</h4>
             <h1 className='text-6xl font-bold text-bold'>
-                Hi I'm
+                Hi, I'm {''}
                 <span className='text-designColor capitalize'>Samsul Alam</span>
                 </h1>
-                <h2>hello cursior</h2>
-                <p>
+                <h2 className="text-4xl font-bold text-white">
+                    a <span>{text}</span>
+                    <Cursor
+                    cursorBlinking="false"
+                    cursorStyle="</>"
+                    cursorColor="#2dd53eff"
+                    />
+                </h2>
+                <p className="text-base font-bodyFont leading-6 tracking-wide">
           Proficient front-end developer with a passion for immersive digital
           experiences and a solid foundation in HTML,CSS,Tailwind CSS, JavaScript,
           ReactJS, Redux,Material UI, Nodejs and Firebase . Committed to staying
