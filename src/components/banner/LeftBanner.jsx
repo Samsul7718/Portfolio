@@ -45,7 +45,7 @@ const LeftBanner = () => {
         </div>
         <div className='flex justify-between items-end'>
             <div>
-                <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
+                <h2 className='text-base uppercase font-titleFont mb-4'>Serving clients from</h2>
                 <div  className="flex gap-4">
                     <span className='bannerIcon'>
                         <a href="https://www.linkedin.com/in/samsul-alam-427a0a19a/">
