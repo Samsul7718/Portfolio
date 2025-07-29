@@ -10,10 +10,14 @@ const FeatureCard = ({icon,title,des}) => {
           <div>
              <span className="text-5xl text-designColor">{icon}</span>
           </div>
-          <div>
-            <h2>{title}</h2>
-            <p>{des}</p>
-            <span></span>
+          <div className='flex flex-col gap-5'>
+            <h2 className="text-2xl font-titleFont font-bold text-gray-300">
+              {title}
+             </h2>
+            <p className='base'>{des}</p>
+            <span className="text-2xl text-designColor">
+
+            </span>
           </div>
         </div>
       </div>
