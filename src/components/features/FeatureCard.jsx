@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowRight } from 'react-icons/fa';
 
 const FeatureCard = ({icon,title,des}) => {
   return (
@@ -16,7 +17,7 @@ const FeatureCard = ({icon,title,des}) => {
              </h2>
             <p className='base'>{des}</p>
             <span className="text-2xl text-designColor">
-
+                   <FaArrowRight/>
             </span>
           </div>
         </div>
