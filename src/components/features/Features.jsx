@@ -1,7 +1,8 @@
 import React from 'react'
 import Title from '../layouts/Title';
 import FeatureCard from './FeatureCard';
-import { SiSemanticweb } from 'react-icons/si';
+import { SiProgress, SiSemanticweb } from 'react-icons/si';
+import { AiFillAppstore } from 'react-icons/ai';
 
 const Features = () => {
   return (
@@ -23,10 +24,10 @@ const Features = () => {
           icon={<AiFillAppstore />}
           />
           <FeatureCard
-          title="Web Development"
-          des="Building modern, responsive, and high-performance web applications using the latest technologies
-           like React, JavaScript, HTML, CSS, and more."
-          icon={<SiSemanticweb />}
+            title="SEO Optimization"
+          des="Enhancing website visibility with advanced SEO strategies, including keyword optimization, 
+          technical SEO, performance improvements, and on-page/off-page SEO techniques."
+          icon={<SiProgress />}
           />
           <FeatureCard
           title="Web Development"
