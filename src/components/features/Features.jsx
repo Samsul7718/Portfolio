@@ -11,7 +11,7 @@ const Features = () => {
      id="features"
       className="w-full pt-10 py-20 border-b-[1px] border-b-black">
         <Title title="Features" des="What i Do" />
-        <div>
+        <div className="grid grid-cols-3 gap-20">
           <FeatureCard
           title="Web Development"
           des="Building modern, responsive, and high-performance web applications using the latest technologies
