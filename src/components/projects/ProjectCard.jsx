@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = () => {
+const ProjectCard = ({src}) => {
   return (
      <div
       className=" w-full px-12 h-auto py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r
