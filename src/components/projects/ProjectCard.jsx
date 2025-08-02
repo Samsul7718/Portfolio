@@ -1,6 +1,8 @@
 import React from 'react'
+import { BsGithub } from 'react-icons/bs'
+import { FaGlobe } from 'react-icons/fa'
 
-const ProjectCard = ({title,src,des}) => {
+const ProjectCard = ({title,src,des,github,live}) => {
   return (
      <div
       className=" w-full px-12 h-auto py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r
@@ -17,11 +19,26 @@ const ProjectCard = ({title,src,des}) => {
       <div>
         <div>
           <div>
-            {title}
+             <h3 className="text-base uppercase text-designColor font-normal">
+              {title}
+             </h3>
+             <div>
+              <a   
+              href={github}
+              target="_blank">
+                  <BsGithub />
+              </a>
+              <a   
+              href={live}
+              target="_blank">
+                  <FaGlobe />
+              </a>
+             </div>
+            
           </div>
 
         </div>
-        <p>
+        <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
           {des}
         </p>
 
