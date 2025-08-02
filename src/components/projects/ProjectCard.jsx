@@ -16,21 +16,29 @@ const ProjectCard = ({title,src,des,github,live}) => {
           alt="src"
         />
       </div>
-      <div>
+      <div className="w-full mt-5 flex flex-col gap-6">
         <div>
-          <div>
+          <div className="flex items-center justify-between">
              <h3 className="text-base uppercase text-designColor font-normal">
               {title}
              </h3>
-             <div>
+             <div className='flex gap-2'>
               <a   
               href={github}
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center
+                  items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                
                   <BsGithub />
               </a>
               <a   
               href={live}
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center
+                 items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
+              >
                   <FaGlobe />
               </a>
              </div>
