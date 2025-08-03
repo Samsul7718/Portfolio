@@ -10,7 +10,10 @@ const Features = () => {
     <section
      id="features"
       className="w-full pt-10 py-20 border-b-[1px] border-b-black">
-        <Title title="Features" des="What i Do" />
+        <div className="flex justify-center items-center text-center">
+           <Title title="Features" des="What i Do" />
+        </div>
+       
         <div className="grid grid-cols-3 gap-20">
           <FeatureCard
           title="Web Development"
