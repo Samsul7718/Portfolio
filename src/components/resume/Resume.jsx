@@ -7,6 +7,24 @@ const Resume = () => {
         <div className='flex justify-center items-center text-center '>
             <Title title="SEFT-TOUGHT FRONT-END DEVELOPER" des="My Resume"/>
         </div>
+        <div>
+            <ul>
+                <li>
+                     Educations
+                </li>
+                <li>
+                     Professional skills
+                </li>
+                <li>
+                     Experience
+                </li>
+                <li>
+                      Achievements
+                </li>
+               
+            </ul>
+
+        </div>
     </section>
   )
 }
