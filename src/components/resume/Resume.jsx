@@ -13,16 +13,60 @@ const Resume = () => {
         </div>
         <div>
             <ul className="w-full grid grid-cols-4">
-                <li>
+                <li
+                  onClick={() =>
+                   setEducationData(true) &
+                   setSkillData(false) &
+                   setAchievementData(false) &
+                   setExperienceData(false)
+              }
+              className={`${educationData? "border-designColor rounded-lg": "border-transparent"} resumeLi`}
+                >
                      Educations
                 </li>
-                <li>
+                <li
+                onClick={() =>
+                   setEducationData(false) &
+                   setSkillData(true) &
+                   setAchievementData(false) &
+                   setExperienceData(false)
+              }
+               className={`${
+              skillData ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+                >
                      Professional skills
                 </li>
-                <li>
+                <li
+                
+                onClick={() =>
+                   setEducationData(false) &
+                   setSkillData(false) &
+                   setAchievementData(false) &
+                   setExperienceData(true)
+              }
+               className={`${
+              experienceData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+              >
                      Experience
                 </li>
-                <li>
+                <li
+                
+                onClick={() =>
+                   setEducationData(false) &
+                   setSkillData(false) &
+                   setAchievementData(true) &
+                   setExperienceData(false)
+              }
+               className={`${
+              achievementData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+              >
                       Achievements
                 </li>
                
