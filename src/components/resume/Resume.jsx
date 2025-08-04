@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Title from '../layouts/Title'
 
 const Resume = () => {
@@ -12,7 +12,7 @@ const Resume = () => {
             <Title title="SEFT-TOUGHT FRONT-END DEVELOPER" des="My Resume"/>
         </div>
         <div>
-            <ul>
+            <ul className="w-full grid grid-cols-4">
                 <li>
                      Educations
                 </li>
