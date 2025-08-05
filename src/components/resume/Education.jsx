@@ -12,10 +12,7 @@ const Education = () => {
          <div  className="w-full mt-14 h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10">
             <ResumeCard/>
-            <ResumeCard/>
-            <ResumeCard/>
-            <ResumeCard/>
-            <ResumeCard/>
+          
            {/* <ResumeCard
             title="Front-end-developer"
             subTitle="CODING NINJA (2022-2023)"
