@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import Title from '../layouts/Title'
+import Experience from './Experience';
+import Education from './Education'
+import Skills from './Skills'
+import Achievement from './Achievement'
 
 const Resume = () => {
     const [educationData, setEducationData] = useState(true);
@@ -73,6 +77,10 @@ const Resume = () => {
             </ul>
 
         </div>
+        {educationData && <Education/> }
+        {skillData && <Skills/> }
+        {experienceData && <Experience/> }
+        {achievementData && <Achievement/> }
     </section>
   )
 }
