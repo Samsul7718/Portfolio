@@ -21,6 +21,20 @@ const Education = () => {
             des="I learned the coding language java then i move forword to HTML,CSS,JS,React.Apart from 
             this i made some project.Now I'm upgrading my self."
           />
+             <ResumeCard
+            title="Front-end-developer"
+            subTitle="CODING NINJA (2022-2023)"
+            result="React"
+            des="I learned the coding language java then i move forword to HTML,CSS,JS,React.Apart from 
+            this i made some project.Now I'm upgrading my self."
+          />
+             <ResumeCard
+            title="Front-end-developer"
+            subTitle="CODING NINJA (2022-2023)"
+            result="React"
+            des="I learned the coding language java then i move forword to HTML,CSS,JS,React.Apart from 
+            this i made some project.Now I'm upgrading my self."
+          />
          </div>
       </div>
       <div>

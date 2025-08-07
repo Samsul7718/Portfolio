@@ -30,5 +30,8 @@
             border-[1px] rounded-none;
   
 }  
+ .bgOpacity {
+    @apply bg-black bg-black/40;
+  }
 
 }
