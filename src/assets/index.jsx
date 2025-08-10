@@ -7,7 +7,7 @@ import projectFive from './images/project/calculate.png'
 import projectSix   from './images/project/task.png'
 import testimonialOne from './images/testimonial/Banner-1.jpg'
 import testimonialTwo from './images/testimonial/user4.webp'
-import quote from './images/testimonial/quote.jpg'
+import quote from './images/testimonial/quote-rem.png'
 
 
 

@@ -3,6 +3,7 @@ import React from 'react'
 import Title from  '../layouts/Title'
 import { testimonialOne } from '../../assets/index.jsx'
 import { quote } from '../../assets/index.jsx'
+import { RiStarFill } from "react-icons/ri";
 
 const Testimonial = () => {
   return (
