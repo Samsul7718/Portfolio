@@ -70,6 +70,11 @@ const Testimonial = () => {
               </div>
             </div>
         </div>
+         <div className="w-full">
+               <div className="w-full h-[500px] flex justify-between">
+                
+               </div>
+         </div>
       </div>
     </section>
     
