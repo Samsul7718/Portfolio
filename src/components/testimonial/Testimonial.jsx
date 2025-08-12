@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Title from  '../layouts/Title'
+import Slider from 'react-slick'
 import { testimonialOne, testimonialTwo } from '../../assets/index.jsx'
 import { quote } from '../../assets/index.jsx'
 import { RiStarFill } from "react-icons/ri";
@@ -15,6 +16,7 @@ const Testimonial = () => {
         <Title title="WHAT CLIENT SAY" des="TESTIMONIAL" />
         </div>
       <div className='max-w-6xl mx-auto'>
+        <slider>
         <div className='w-full'>
             <div className="w-full h-[500px] flex justify-between">
                 <div
@@ -125,6 +127,7 @@ const Testimonial = () => {
               </div>
                </div>
          </div>
+         </slider>
       </div>
     </section>
     
