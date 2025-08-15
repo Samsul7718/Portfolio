@@ -2,10 +2,14 @@
 import React, { useState } from 'react'
 import Title from  '../layouts/Title'
 import Slider from 'react-slick'
-import { HiArrowLeft, HiArrowRight } from "react-icons/hi2";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { testimonialOne, testimonialTwo } from '../../assets/index.jsx'
 import { quote } from '../../assets/index.jsx'
 import { RiStarFill } from "react-icons/ri";
+import { HiArrowLeft, HiArrowRight } from "react-icons/hi2";
+
+
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -99,7 +103,7 @@ const Testimonial = () => {
         <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENT SAY" des="TESTIMONIAL" />
         </div>
-      <div className='flex justify-center max-w-6xl mx-auto'>
+      <div className=' max-w-6xl mx-auto'>
         <Slider {...settings}>
         <div className='w-full'>
             <div className="w-full h-[500px] flex justify-between">
