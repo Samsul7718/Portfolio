@@ -118,10 +118,10 @@ const Testimonial = () => {
                 />
                   <div>
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    The Entrepreneurship Network
                   </p>
-                  <h3 className="text-2xl font-bold">John Down Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">CEO</p>
+                  <h3 className="text-2xl font-bold">Sreyas Sir MD </h3>
+                  <p className="text-base tracking-wide text-gray-500">MD</p>
                 </div>
               </div>
                <div className="w-[60%] h-full flex flex-col justify-between">
@@ -133,10 +133,10 @@ const Testimonial = () => {
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-2xl font-medium tracking-wide">
-                        travel mobile app design
+                        Internship at TEN
                       </h3>
                       <p className=" text-base text-gray-400 mt-3">
-                        via upwork mar 15,2024 - aug 30, 2024 test
+                        via Remote Mar 15,2024 - July 30, 2024 
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -149,11 +149,9 @@ const Testimonial = () => {
                   </div>
                   <div className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur cupiditate
-                      explicabo veniam molestias laudantium soluta qui omnis!
-                      Quod.Lorem ipsum, dolor sit amet consectetur cupiditate
-                      explicabo veniam molestias laudantium soluta qui omnis!
-                      Quod.
+                     Samsul is an exceptional front-end developer with a keen eye for design and user experience.His mastery of 
+                     React, Tailwind CSS, and Firebase allowed us to launch a smooth, visually appealing platform that exceeded 
+                     client expectations.
                     </p>
                   </div>
                 </div>
@@ -216,7 +214,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="w-full">
             <div className="w-full h-[500px] flex justify-between">
               <div

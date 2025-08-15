@@ -5,7 +5,7 @@ import projectThree from './images/project/React Todo.png'
 import projectFour from './images/project/weather.png'
 import projectFive from './images/project/calculate.png'
 import projectSix   from './images/project/task.png'
-import testimonialOne from './images/testimonial/Banner-1.jpg'
+import testimonialOne from './images/testimonial/TEN.jpeg'
 import testimonialTwo from './images/testimonial/user4.webp'
 import quote from './images/testimonial/quote-rem.png'
 
