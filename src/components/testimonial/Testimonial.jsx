@@ -99,8 +99,8 @@ const Testimonial = () => {
         <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENT SAY" des="TESTIMONIAL" />
         </div>
-      <div className='max-w-6xl mx-auto'>
-        <Slider{...settings}>
+      <div className='flex justify-center max-w-6xl mx-auto'>
+        <Slider {...settings}>
         <div className='w-full'>
             <div className="w-full h-[500px] flex justify-between">
                 <div

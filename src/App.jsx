@@ -20,7 +20,7 @@ function App() {
        <Features/>
        <Project/>
        <Resume/>
-       <Testimonial/>
+       {<Testimonial/>}
     </div>
     
    </div>
