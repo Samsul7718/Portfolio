@@ -136,7 +136,7 @@ const Testimonial = () => {
                         Internship at TEN
                       </h3>
                       <p className=" text-base text-gray-400 mt-3">
-                        via Remote Mar 15,2024 - July 30, 2024 
+                        via Remote April 15,2024 - July 30, 2024 
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
