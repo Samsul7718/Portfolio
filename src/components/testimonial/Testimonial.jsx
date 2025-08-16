@@ -187,10 +187,10 @@ const Testimonial = () => {
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-2xl font-medium tracking-wide">
-                        travel mobile app design
+                          Internship at Oasis InfoByte
                       </h3>
                       <p className=" text-base text-gray-400 mt-3">
-                        via upwork mar 15,2024 - aug 30, 2024 test
+                        via Remote mar 15,2023 - june 30, 2023
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
