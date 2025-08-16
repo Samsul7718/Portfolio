@@ -172,9 +172,9 @@ const Testimonial = () => {
                 />
                 <div>
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Oasis InfoByte
                   </p>
-                  <h3 className="text-2xl font-bold">John Down Joe</h3>
+                  <h3 className="text-2xl font-bold">mr.john</h3>
                   <p className="text-base tracking-wide text-gray-500">CEO</p>
                 </div>
               </div>
