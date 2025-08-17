@@ -174,7 +174,7 @@ const Testimonial = () => {
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Oasis InfoByte
                   </p>
-                  <h3 className="text-2xl font-bold">Ashwani Singh</h3>
+                  <h3 className="text-2xl font-bold">Adarsh Prakash</h3>
                   <p className="text-base tracking-wide text-gray-500">CEO</p>
                 </div>
               </div>
