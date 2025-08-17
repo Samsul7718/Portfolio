@@ -203,11 +203,8 @@ const Testimonial = () => {
                   </div>
                   <div className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur cupiditate
-                      explicabo veniam molestias laudantium soluta qui omnis!
-                      Quod.Lorem ipsum, dolor sit amet consectetur cupiditate
-                      explicabo veniam molestias laudantium soluta qui omnis!
-                      Quod.
+                    Samsul blends creativity with precision. His expertise in React and CSS shaped an elegant, seamless
+                     platform that delighted users and surpassed client expectations.
                     </p>
                   </div>
                 </div>
