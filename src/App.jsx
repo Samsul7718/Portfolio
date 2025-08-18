@@ -5,6 +5,7 @@ import Features from './components/features/Features'
 import Project from './components/projects/project'
 import Resume from './components/resume/Resume'
 import Testimonial from './components/testimonial/Testimonial'
+import Contact from './components/contact/Contact'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
        <Features/>
        <Project/>
        <Resume/>
-       {<Testimonial/>}
+       <Testimonial/>
+       <Contact/>
     </div>
     
    </div>
