@@ -5,7 +5,7 @@ import Title from '../layouts/Title'
 const Contact = () => {
   return (
     <section
-      id="contacts"
+      id="contact"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">

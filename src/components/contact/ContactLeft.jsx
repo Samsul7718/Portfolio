@@ -1,6 +1,7 @@
 import React from 'react'
 import { contactImg } from '../../assets/index.jsx'
-import { FaLinkedin } from 'react-icons/fa'
+import { FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
+import { FaSquareXTwitter } from 'react-icons/fa6'
 
 const ContactLeft = () => {
   return (
@@ -26,12 +27,22 @@ const ContactLeft = () => {
           Email: <span className="text-lightText">samsul7718@gmail.com</span>
         </p>
       </div>
-      <div>
+      <div className='flex flex-col gap-4'>
            <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
-           <div>
-            <span>
+           <div className='flex  gap-4'>
+            <span className="bannerIcon">
               <a href="https://www.linkedin.com/in/samsul-alam-427a0a19a/">
                  <FaLinkedin />
+              </a>
+            </span>
+             <span className="bannerIcon">
+              <a href="https://www.linkedin.com/in/samsul-alam-427a0a19a/">
+                 <FaInstagramSquare  />
+              </a>
+            </span>
+             <span className="bannerIcon">
+              <a href="https://www.linkedin.com/in/samsul-alam-427a0a19a/">
+                 <FaSquareXTwitter />
               </a>
             </span>
            </div>
