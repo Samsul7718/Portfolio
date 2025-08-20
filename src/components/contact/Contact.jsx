@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactLeft from './ContactLeft'
 import Title from '../layouts/Title'
+import ContactRight from './ContactRight'
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
       <div className='w-full'>
         <div className="w-full h-auto flex justify-between">
           <ContactLeft />
-          {/* <ContactRight /> */}
+          <ContactRight />
         </div>
       </div>
 
