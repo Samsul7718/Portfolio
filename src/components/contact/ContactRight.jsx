@@ -35,26 +35,41 @@ const ContactRight = () => {
               <p className="text-sm text-gray-400 uppercase tracking-wide">
               Phone Number
             </p>
-            <input name='phoneNumber' type="text" 
+            <input 
+            onChange={(e) => setPhoneNumber(e.target.value)}
+            name='phoneNumber' 
+            type="text" 
             value={phoneNumber}
-            className=''
+             className={`${
+                errMsg === "phoneNumber is Required!" && "outline-designColor"
+              } contactInput`}
             />
           </div>
         </div>
             <div className='w-1/2 flex flex-col gap-4'>
               <p className="text-sm text-gray-400 uppercase tracking-wide">Email</p>
-            <input name='email' type="text" 
+            <input 
+            onChange={(e) => setEmail(e.target.value)}
+            name='email' 
+            type="text" 
             value={email}
-            className=''
+             className={`${
+                errMsg === "phoneNumber is Required!" && "outline-designColor"
+              } contactInput`}
             />
           </div>
            <div className='w-1/2 flex flex-col gap-4'>
               <p className="text-sm text-gray-400 uppercase tracking-wide">
               Subject
             </p>
-            <input name='subject' type="text" 
+            <input 
+            onChange={(e) => setSubject(e.target.value)}
+            name='subject' 
+            type="text" 
             value={subject}
-            className=''
+             className={`${
+                errMsg === "phoneNumber is Required!" && "outline-designColor"
+              } contactInput`}
             />
           </div>
           <div className='w-1/2 flex flex-col gap-4'>
@@ -62,11 +77,14 @@ const ContactRight = () => {
               Message
             </p>
            <textarea 
+           onChange={(e) => setMessage(e.target.value)}
            value={message}
            name="message" 
             cols="30"
             rows="10"
-            className=''
+             className={`${
+                errMsg === "phoneNumber is Required!" && "outline-designColor"
+              } contactInput`}
            >
 
            </textarea>
