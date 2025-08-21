@@ -22,6 +22,7 @@ const ContactRight = () => {
               YOUR NAME
             </p>
             <input 
+            onChange={(e) => setUsername(e.target.value)}
             value={username}
             name='username' 
             type="text" 
