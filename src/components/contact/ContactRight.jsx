@@ -8,6 +8,10 @@ const ContactRight = () => {
   const [message, setMessage] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
+
+   const handleSend = async (e) => {
+    e.preventDefault();
+   }
   return (
     <div className='w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
                     p-8 rounded-lg  flex flex-col gap-8'
@@ -91,7 +95,11 @@ const ContactRight = () => {
           </div>
           <div>
             <button
-            type='submit'
+             type="submit"
+            onClick={handleSend}
+            className="w-full h-12 rounded-lg text-base  bg-[#141518] text-gray-400 tracking-wider
+                uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor
+                border-transparent "
             >
               Send Message
             </button>
