@@ -3,7 +3,9 @@ import React from 'react'
 const FooterBottom = () => {
   return (
     <div className='w-full py-8'>
-        <p></p>
+        <p className="text-center text-gray-500 text-base">
+             &copy; 2025. All Right Reserved by Samsul Alam
+        </p>
     </div>
   )
 }
