@@ -13,7 +13,7 @@ const Contact = () => {
         <Title title="WHAT YOUR QUERY" des="contact with me"/>
       </div>
       <div className='w-full'>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div className="   w-full h-auto flex justify-between gap-6">
         
           {/* grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 */}
            

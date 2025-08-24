@@ -6,11 +6,16 @@ import { FaSquareXTwitter } from 'react-icons/fa6'
 const ContactLeft = () => {
   return (
     <div
-     className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
+     className="w-full sm:w-[70%] md:w-[50%] lg:w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
                     p-8 rounded-lg  flex flex-col gap-8 justify-center "
     >
+      {/*  w-full sm:w-[70%] md:w-[50%] lg:w-[35%] 
+    h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] 
+    shadow-shadowOne p-8 rounded-lg flex flex-col gap-8 justify-center */}
+    {/* sm:h-64 md:h-80 lg:h-[28rem] */}
       <img 
-        className="w-full h-64 object-cover rounded-lg mb-2"
+      
+        className="w-full h-48   object-cover rounded-lg mb-2"
       src={contactImg} alt="contactImg" />
       <div className='flex flex-col gap-4'>
            <h3 className="text-3xl font-bold text-white">Samsul Alam</h3>
