@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-   <div className="w-full h-auto bg-bodyColor text-lightText font-bodyFont">
+   <div className="w-full h-auto bg-bodyColor text-lightText font-bodyFont px-4">
      
     <Navbar />
     <div className='max-w-screen-2xl mx-auto px-4 sm:px-0 md:px-6 lg:px-16'>
