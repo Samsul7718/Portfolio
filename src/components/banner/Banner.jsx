@@ -9,7 +9,9 @@ const Banner = () => {
       font-titleFont border-b-black overflow-hidden"
       
     >
-        <div  className="flex w-full max-w-screen-2xl mx-auto">
+      {/* flex w-full max-w-screen-2xl mx-auto */}
+        <div  className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
            <LeftBanner/>
         </div>
     </section>

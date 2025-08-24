@@ -14,10 +14,12 @@ function App() {
 
   return (
     <>
-   <div className="w-full h-auto bg-bodyColor text-lightText font-bodyFont px-4">
-     
+   <div className="w-full min-h-screen  bg-bodyColor text-lightText font-bodyFont">
+   
     <Navbar />
-    <div className='max-w-screen-2xl mx-auto px-4 sm:px-0 md:px-6 lg:px-16'>
+    <div className='max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-6 sm:py-8 md:py-10'>
+     
+
        <Banner/>
        <Features/>
        <Project/>
