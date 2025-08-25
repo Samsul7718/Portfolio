@@ -17,7 +17,7 @@ function App() {
    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
    
     <Navbar />
-    <div className='w-full overflow-hidden'>
+    <div className='w-full overflow-hidden px-2 sm:px-6 lg:px-16'>
        <Banner/>
        <Features/>
        <Project/>

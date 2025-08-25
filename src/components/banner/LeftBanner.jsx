@@ -43,21 +43,21 @@ const LeftBanner = () => {
           to detail,making a meaningful impact in front-end development.
                 </p>
         </div>
-        <div className='flex justify-between items-end'>
+        <div className='flex flex-wrap gap-2 sm:gap-4 justify-between items-end'>
             <div>
                 <h2 className='text-base uppercase font-titleFont mb-4'>Serving clients from</h2>
                 <div  className="flex gap-4">
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                         <a href="https://www.linkedin.com/in/samsul-alam-427a0a19a/">
                             <FaLinkedin/>
                         </a>
                     </span>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'> 
                         <a href="https://www.instagram.com/samsul1934/">
                             <FaInstagramSquare/>
                         </a>
                     </span>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                         <a href="https://twitter.com/samsula32423150">
                             <FaSquareXTwitter/>
                         </a>
@@ -69,22 +69,22 @@ const LeftBanner = () => {
                 Best Skill On
                </h2>
                <div className='flex gap-4'>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                            <FaHtml5/> 
                     </span>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                         <a href="https://drive.google.com/file/d/1o9_E_rxmBVvXFF8T6E9CWAWA-rLeZQmf/view?usp=sharing">
                            <IoLogoJavascript/>
                         </a>
                        
                     </span>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                         <a href="https://drive.google.com/file/d/1rzxMlI7TwAhGPgoHsFdde32sS2V_rgfX/view?usp=sharing">
                             <FaReact/> 
                         </a>
                        
                     </span>
-                    <span className='bannerIcon'>
+                    <span className='bannerIcon text-xl sm:text-2xl md:text-3xl'>
                         <SiMui/>
                     </span>
                </div>
