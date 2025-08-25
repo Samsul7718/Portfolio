@@ -21,12 +21,12 @@ const LeftBanner = () => {
   return (
     <div className='w-full flex flex-col gap-20'>
         <div className='flex flex-col gap-7'>
-            <h4 className='text-lg font-normal'>WEL COME TO MY PORTFOLIO</h4>
-            <h1 className='text-6xl font-bold text-bold'>
+            <h4 className='text-sm sm:text-lg font-normal'>WEL COME TO MY PORTFOLIO</h4>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold text-bold'>
                 Hi, I'm {''}
                 <span className='text-designColor capitalize'>Samsul Alam</span>
                 </h1>
-                <h2 className="text-4xl font-bold text-white">
+                <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold text-white">
                     a <span>{text}</span>
                     <Cursor
                     cursorBlinking="false"
