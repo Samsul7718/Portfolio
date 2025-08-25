@@ -68,8 +68,8 @@ const ContactRight = () => {
     }
    }
   return (
-    <div className='w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
-                    p-8 rounded-lg  flex flex-col gap-8'
+    <div className='w-full sm:w-[50%] md:w-[50%] lg:w-[60%]  h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
+                    p-2 rounded-lg  flex flex-col '
                     >
       <form action="https://getform.io/f/apjnnzja" 
        method="post"

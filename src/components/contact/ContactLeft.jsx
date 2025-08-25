@@ -6,8 +6,8 @@ import { FaSquareXTwitter } from 'react-icons/fa6'
 const ContactLeft = () => {
   return (
     <div
-     className="w-full sm:w-[70%] md:w-[50%] lg:w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
-                    p-2 rounded-lg  flex flex-col gap-8 justify-center "
+     className="w-full sm:w-[45%] md:w-[45%] lg:w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne
+                    p-2 rounded-lg  flex flex-col gap-4 justify-center "
     >
       {/*  w-full sm:w-[70%] md:w-[50%] lg:w-[35%] 
     h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] 
