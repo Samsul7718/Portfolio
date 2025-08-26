@@ -14,7 +14,7 @@ const project = () => {
         title="VISIT MY PORTFOLIO AND GIVE YOUR FEEDBACK"
           des="My Projects" />
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 lg:gap-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-10'>
         <ProjectCard
         title="React Portfolio"
         des="A modern, fully responsive portfolio website built with React and Tailwind CSS. Features include 
