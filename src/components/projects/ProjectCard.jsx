@@ -5,7 +5,7 @@ import { FaGlobe } from 'react-icons/fa'
 const ProjectCard = ({title,src,des,github,live}) => {
   return (
      <div
-      className=" w-full min-h-screen px-4 sm:px-8 md:px-12 py-2 rounded-lg shadow-shadowOne flex 
+      className=" w-full h-full px-4 sm:px-8 md:px-12 py-6 rounded-lg shadow-shadowOne flex 
       flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 
       hover:gray-900 transition:colors duration-1000"
     >
