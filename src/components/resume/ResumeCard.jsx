@@ -12,7 +12,7 @@ const ResumeCard = ({title,subTitle,result,des}) => {
           </div>
             
           <div  
-          className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg
+          className="w-full sm:w-[70%] md:w-[90%] bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg
       px-10 flex flex-col justify-center gap-10 shadow-shadowOne">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
               <div>
