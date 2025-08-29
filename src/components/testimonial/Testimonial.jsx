@@ -147,8 +147,8 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <div className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    <p>
+                <div className="w-full py-2 sm:py-3 px-2 sm:px-4 text-gray-400">
+                    <p className='text-sm sm:text-base md:text-lg leading-normal'>
                      Samsul is an exceptional front-end developer with a keen eye for design and user experience.His mastery of 
                      React, Tailwind CSS, and Firebase allowed us to launch a smooth, visually appealing platform that exceeded 
                      client expectations.
@@ -201,8 +201,8 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <div className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    <p>
+                  <div className="w-full px-2 sm:px-4 text-gray-400">
+                    <p className='text-sm sm:text-base md:text-lg leading-normal'>
                     Samsul blends creativity with precision. His expertise in React and CSS shaped an elegant, seamless
                      platform that delighted users and surpassed client expectations.
                     </p>
@@ -254,8 +254,8 @@ const Testimonial = () => {
                       <RiStarFill />
                     </div>
                   </div>
-                  <div className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    <p>
+                  <div className="w-full px-2 sm:px-4 text-gray-400">
+                    <p className='text-sm sm:text-base md:text-lg leading-normal'>
                       Lorem ipsum, dolor sit amet consectetur cupiditate
                       explicabo veniam molestias laudantium soluta qui omnis!
                       Quod.Lorem ipsum, dolor sit amet consectetur cupiditate
