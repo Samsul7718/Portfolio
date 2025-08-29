@@ -7,15 +7,15 @@ const Achievement = () => {
    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex gap-20"
+      className="w-full flex flex-col sm:flex-row  sm:gap-6 lg:gap-10"
     >
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">Features</p>
-          <h2 className="text-4xl font-bold">Design Achievement</h2>
+      <div className='w-full sm:w-[48%]'>
+        <div className="py-8 sm:py-12 font-titleFont flex flex-col gap-3 sm:gap-4">
+          <p className="text-xs sm:text-sm text-designColor  tracking-[3px] sm:tracking-[4px]">Features</p>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Design Achievement</h2>
         </div>
         <div
-          className="w-full mt-14 h-[1000px] border-l-[6px] border-l-black
+          className="w-full sm:w-[95%]  mt-14 h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
@@ -38,13 +38,13 @@ const Achievement = () => {
           />
         </div>
       </div>
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">Features</p>
-          <h2 className="text-4xl font-bold">Development Achievement</h2>
+      <div className='w-full sm:w-[48%]'>
+        <div className="py-8 sm:py-12 font-titleFont flex flex-col gap-3 sm:gap-4">
+          <p className="text-xs sm:text-sm text-designColor  tracking-[3px] sm:tracking-[4px]">Features</p>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Development Achievement</h2>
         </div>
         <div
-          className="w-full mt-14 h-[1000px] border-l-[6px] border-l-black
+          className="w-full sm:w-[95%] mt-14 h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard

@@ -7,7 +7,7 @@ const Experience = () => {
       <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lg:flex-row gap-10 lg:gap-20"
+      className="w-full flex flex-col sm:flex-row gap-5 sm:gap-10 "
     
       >
       <div className="flex-1">
