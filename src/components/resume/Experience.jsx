@@ -7,16 +7,16 @@ const Experience = () => {
       <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col sm:flex-row gap-5 sm:gap-10 "
+      className="w-full flex flex-col sm:flex-row gap-4 sm:gap-8 "
     
       >
-      <div className="flex-1">
+      <div className="w-full sm:w-1/2">
         <div className="py-8 sm:py-12 font-titleFont flex flex-col gap-3 sm:gap-4">
           <p className="text-xs sm:text-sm text-designColor  tracking-[3px] sm:tracking-[4px]">Features</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Design Experience </h2>
         </div>
-        <div  className="w-full mt-8 sm:mt-14 h-[700px] sm:h-[800px] lg:h-[1000px] border-l-[4px] sm:border-l-[6px] border-l-black
-      border-opacity-30 flex flex-col gap-6 sm:gap-10">
+        <div  className="w-full mt-8 h-[1000px] sm:mt-14 border-l-[4px] sm:border-l-[6px] border-l-black 
+        border-opacity-30 flex flex-col gap-2 sm:gap-6 lg:gap-10">
           <ResumeCard
             title="Photoshot skill "
             subTitle="SELF-IMAGE (2018-2022)"
@@ -37,14 +37,13 @@ const Experience = () => {
           />
         </div>
       </div>
-       <div className="flex-1">
+       <div className="w-full sm:w-1/2">
         <div className="py-8 sm:py-12 font-titleFont flex flex-col gap-3 sm:gap-4">
           <p className="text-xs sm:text-sm text-designColor  tracking-[3px] sm:tracking-[4px]">Features</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Development Experience</h2>
         </div>
         <div
-          className="w-full mt-8 sm:mt-14 h-[700px] sm:h-[800px] lg:h-[1000px] border-l-[4px] sm:border-l-[6px] border-l-black
-      border-opacity-30 flex flex-col gap-6 sm:gap-10"
+          className="w-full h-[1000px] mt-8 sm:mt-14 border-l-[4px] sm:border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-2 sm:gap-6 lg:gap-10"
         >
           <ResumeCard
             title="Portfolio project"
