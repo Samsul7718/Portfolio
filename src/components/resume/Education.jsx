@@ -9,10 +9,10 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lg:flex-row gap-10 lg:gap-20"
     >
-      <div>
-         <div className='py-12 font-titleFont flex flex-col gap-4'>
-            <p className="text-sm text-designColor tracking-[4px]">2012-2018</p>
-          <h2 className="text-4xl font-bold">Education Quality</h2>
+      <div className='flex-1'>
+         <div className='py-8 sm:py-12 font-titleFont flex flex-col gap-3 sm:gap-4'>
+            <p className="text-xs sm:text-sm text-designColor tracking-[3px] sm:tracking-[4px]">2012-2018</p>
+          <h2 className=" text-2xl sm:text-3xl lg:text-4xl font-bold">Education Quality</h2>
          </div>
          <div className="w-full mt-14 h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10">
